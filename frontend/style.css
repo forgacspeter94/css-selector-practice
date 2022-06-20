@@ -1,0 +1,90 @@
+
+
+div {
+    background-color: blue;
+    height: 100vh;
+    width: 100vh;
+}
+
+div>div {
+    background-color: aquamarine;
+    height: 90vh;
+    width: 90vh;
+}
+
+div>div>div {
+    background-color: red;
+    height: 80vh;
+    width: 80vh;
+}
+
+div>div>div>div {
+    background-color:yellow;
+    height: 70vh;
+    width: 70vh;
+}
+
+
+div>div>div>div>div {
+    background-color: brown;
+    height: 60vh;
+    width: 60vh;
+}
+
+
+div>div>div>div>div>div {
+    background-color: orange;
+    height: 50vh;
+    width: 50vh;
+}
+
+div>div>div>div>div>div>div
+ {
+    background-color:green;
+    height: 40vh;
+    width: 40vh;
+}
+
+div>div>div>div>div>div>div>div {
+    background-color: turquoise;
+    height: 30vh;
+    width: 30vh;
+}
+
+div>div>div>div>div>div>div>div>div {
+    background-color: purple;
+    height: 20vh;
+    width: 20vh;
+}
+
+div>div>div>div>div>div>div>div>div>div {
+    background-color: beige;
+    height: 10vh;
+    width: 10vh;
+}
+
+.green {
+        background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+
+.most-inner:hover {
+    background-color: green;
+}
+
+.most-inner::before {
+    content: 'a';
+}
+
+.most-inner::after {
+    content: 'z';
+    background-color: red;
+}
